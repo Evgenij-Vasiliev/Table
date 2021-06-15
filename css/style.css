@@ -26,7 +26,7 @@ table {
     font-size: 22px;
 }
 
-.tab, .tab-2 {
+.tab, .tab-2, .tab-3 {
     border: none;
 }
 
@@ -56,7 +56,7 @@ th, td {
     padding: 10px;
 }
 
-#customers, .users {
+#customers, .users, .line-table {
     width: 100%;
     margin: 0 auto;
 }
@@ -79,4 +79,28 @@ th, td {
     border: 1px solid #c0c0c0;
     padding: 10px;    
 }
+
+.users tr {
+    height: 60px;
+}
+
+ .line-table th, .line-table td {
+    border-bottom: 1px solid orange;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+}
+
+.line-table {
+    padding: 10px;
+}
+
+.line-table th {
+    border-top: 1px solid orange; 
+}
+
+.tab-3 {
+    padding: 20px;
+}
+
 
